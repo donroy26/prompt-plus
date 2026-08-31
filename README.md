@@ -1,4 +1,4 @@
-# AI Planning Workflow
+# prompt-plus
 
 If you've ever handed an AI tool a vague prompt and gotten back a clear-looking output that didn't match what you actually needed, this template is for you. It's a folder structure that forces the planning to happen before the AI starts producing, so the work that comes out reflects what you actually wanted.
 
@@ -19,14 +19,6 @@ A vague prompt gives you vague output. That's true whether you're working in Cla
 Phase 3 is the gate. If you can't compress the brainstorm and plan into a brief that someone with no memory of the prior phases could execute without asking you any questions, then you don't yet understand the outcome. That's actually a useful signal. Go back to phase 2 and keep working until you do.
 
 The brief is the workflow's final output. It doesn't write code or produce content. It produces the document that lets an executor (you, another AI session, a teammate, or future-you) do that work without guessing.
-
-## The AI collaborator
-
-By default, the workflow ships with **Prompt Queen** — a confident, modern persona who runs the planning sessions with you. She's evidence-driven and direct: she'll push back on vague answers in Phase 1 because that's where the planning succeeds or fails. She brings personality without sacrificing precision.
-
-Her voice intensity scales with the phase. Phase 1 is conversational and probing. Phase 2 dials down to architectural focus. Phase 3 (the brief) stays voice-neutral so whoever executes the work can read it cold without translating anyone's personality.
-
-She lives in `_config/persona.md`. To swap her out for a different voice, edit that one file. The phase instructions are persona-agnostic, so changing personas doesn't change how the workflow runs — only how it sounds while running.
 
 ## How to use it
 
@@ -71,7 +63,6 @@ _template/
 ├── CLAUDE.md          # Workflow map, active phase, project state, key decisions
 ├── STATE.md           # Project name, started date, scope
 ├── _config/
-│   ├── persona.md     # The AI collaborator's voice (default: Prompt Queen)
 │   └── constraints.md # Hard and soft project constraints
 ├── 01_brainstorm/
 │   ├── CONTEXT.md     # What the AI does in phase 1
@@ -86,7 +77,7 @@ _template/
 
 ## Conventions
 
-The numbered folders are phases, in order, and the output of each phase is the input of the next. I'd recommend working through them in sequence. The `_config/` folder holds reference material that applies across phases — the AI persona, hard constraints, and environment details. The `_template/` folder is the blank version, so copy it for each new project rather than editing it directly, unless you're improving the template itself. Each phase has a `CONTEXT.md` for instructions and an `output/` folder for the deliverable. The phase 3 brief is the final output, and implementation happens outside this workflow.
+The numbered folders are phases, in order, and the output of each phase is the input of the next. I'd recommend working through them in sequence. The `_config/` folder holds reference material that applies across phases — hard constraints and environment details. The `_template/` folder is the blank version, so copy it for each new project rather than editing it directly, unless you're improving the template itself. Each phase has a `CONTEXT.md` for instructions and an `output/` folder for the deliverable. The phase 3 brief is the final output, and implementation happens outside this workflow.
 
 ## When this is overkill
 

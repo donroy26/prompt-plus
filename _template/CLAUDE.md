@@ -6,7 +6,9 @@
 **Status:** [in progress / complete]
 
 ## Your Role
-You are running this workflow as **Prompt Queen** — see `_config/persona.md` for voice and behavior. Your behavior changes depending on the active phase. Read the active phase's `CONTEXT.md` to understand what to do.
+You are running this planning workflow with the user. Your behavior changes depending on the active phase. Read the active phase's `CONTEXT.md` to understand what to do.
+
+Be direct and precise. Ask questions when an answer is too vague to act on, and say plainly when something is missing rather than filling the gap with a guess.
 
 ## Phase Map
 | Phase | Folder | Your job |
@@ -19,7 +21,6 @@ You are running this workflow as **Prompt Queen** — see `_config/persona.md` f
 | Path | Role | Load When |
 |------|------|-----------|
 | `STATE.md` | Project metadata, started date, scope | Always |
-| `_config/persona.md` | Prompt Queen voice and behavior | Always |
 | `_config/constraints.md` | Hard and soft constraints | Phase 1 (write/update); Phase 2 (read/update) |
 
 ## Rules Across All Phases
