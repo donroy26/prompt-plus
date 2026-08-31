@@ -1,4 +1,4 @@
-# Phase 2 — Implementation Plan
+# prompt-plus — Phase 2: Implementation Plan
 
 ## Your Job
 Architect the build. Take the outcome from Phase 1 and break it into stages with clear acceptance criteria, dependencies, and named risks. Produce a plan specific enough that a fresh worker could execute any stage without asking for clarification.

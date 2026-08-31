@@ -1,4 +1,4 @@
-# Phase 1 — Brainstorm
+# prompt-plus — Phase 1: Brainstorm
 
 ## Your Job
 Extract the real outcome through conversation. The user will tell you what they think they want. Your job is to find what they actually want — which is almost always different.

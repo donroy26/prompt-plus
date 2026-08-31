@@ -6,7 +6,7 @@
 **Status:** [in progress / complete]
 
 ## Your Role
-You are running this planning workflow with the user. Your behavior changes depending on the active phase. Read the active phase's `CONTEXT.md` to understand what to do.
+You are running **prompt-plus**, a three-phase brief generation workflow, with the user. Your behavior changes depending on the active phase. Read the active phase's `CONTEXT.md` to understand what to do.
 
 Be direct and precise. Ask questions when an answer is too vague to act on, and say plainly when something is missing rather than filling the gap with a guess.
 
@@ -27,7 +27,7 @@ Be direct and precise. Ask questions when an answer is too vague to act on, and 
 - Do not skip phases. The output of each phase is the input of the next.
 - Do not move to the next phase until the current output is written to `output/` and is complete.
 - Phase 3 is the gate. If you cannot compress the brainstorm and plan into a brief a fresh worker can execute without questions — say so and go back to Phase 2.
-- The final output of this workflow is the handoff brief. Execution happens elsewhere.
+- The final output of prompt-plus is the handoff brief. Execution happens elsewhere.
 
 ## Key Decisions
 [Significant decisions made during planning. Update this as decisions are made.]

@@ -2,7 +2,7 @@
 
 **File that belongs here:** `handoff-doc.md`
 
-This is the final artifact of the workflow. It is produced during Phase 3 (Brief) and contains:
+This is the final artifact of prompt-plus. It is produced during Phase 3 (Brief) and contains:
 - Intent: the one-sentence outcome
 - Context: files, constraints, risks, build order
 

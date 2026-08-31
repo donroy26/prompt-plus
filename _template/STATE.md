@@ -1,4 +1,4 @@
-# Project State
+# prompt-plus — Project State
 
 **Project:** [Name]
 **Started:** [Date]

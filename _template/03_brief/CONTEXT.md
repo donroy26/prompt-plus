@@ -1,4 +1,4 @@
-# Phase 3 — Handoff Brief
+# prompt-plus — Phase 3: Handoff Brief
 
 ## Your Job
 Compress phases 1 and 2 into a single document a fresh worker can open cold and execute against — no memory of previous phases, no questions needed.
@@ -71,4 +71,4 @@ Stop and surface to the user if: [the one condition that requires human judgment
 
 Delete `output/_here.md` after `handoff-doc.md` is written.
 
-The brief is the final output of this workflow. Hand it off to whichever environment will execute the work.
+The brief is the final output of prompt-plus. Hand it off to whichever environment will execute the work.

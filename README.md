@@ -1,8 +1,8 @@
 # prompt-plus
 
-If you've ever handed an AI tool a vague prompt and gotten back a clear-looking output that didn't match what you actually needed, this template is for you. It's a folder structure that forces the planning to happen before the AI starts producing, so the work that comes out reflects what you actually wanted.
+**prompt-plus** is a brief generation workflow. If you've ever handed an AI tool a vague prompt and gotten back a clear-looking output that didn't match what you actually needed, this template is for you. It's a folder structure that forces the planning to happen before the AI starts producing, so the work that comes out reflects what you actually wanted.
 
-The output of this workflow is a brief, not the implementation. Execution happens wherever you want, with whatever tool you want, once the thinking is done.
+The output of prompt-plus is a brief, not the implementation. Execution happens wherever you want, with whatever tool you want, once the thinking is done.
 
 ## Why this exists
 
@@ -18,11 +18,11 @@ A vague prompt gives you vague output. That's true whether you're working in Cla
 
 Phase 3 is the gate. If you can't compress the brainstorm and plan into a brief that someone with no memory of the prior phases could execute without asking you any questions, then you don't yet understand the outcome. That's actually a useful signal. Go back to phase 2 and keep working until you do.
 
-The brief is the workflow's final output. It doesn't write code or produce content. It produces the document that lets an executor (you, another AI session, a teammate, or future-you) do that work without guessing.
+The brief is prompt-plus's final output. It doesn't write code or produce content. It produces the document that lets an executor (you, another AI session, a teammate, or future-you) do that work without guessing.
 
 ## How to use it
 
-1. Copy `_template/` and rename it to something descriptive, like `2026-newsletter-redesign/`.
+1. Copy `_template/` and rename it to something descriptive, like `2026-newsletter-redesign/`. That copy is your prompt-plus project.
 2. Open the folder in Claude Code, Cursor, ChatGPT projects, or any AI session that can read folder contents.
 3. The AI reads `CLAUDE.md` first. That file tells it which phase is active and what its job is.
 4. Work through phase 1 with the AI, then write the outcome to `01_brainstorm/output/outcome.md`.
@@ -54,7 +54,7 @@ State lives on disk. The folder is the memory. A new session can read the folder
 
 It's tool-agnostic. The whole thing is markdown files and a folder convention. It works in Claude Code, ChatGPT, Cursor, or even a plain text editor with no AI at all.
 
-The shape stays the same across projects. Every project follows the same structure, so picking up someone else's work, or your own from six months ago, takes minutes instead of hours.
+The shape stays the same across projects. Every prompt-plus project follows the same structure, so picking up someone else's work, or your own from six months ago, takes minutes instead of hours.
 
 ## Folder structure
 
@@ -77,8 +77,8 @@ _template/
 
 ## Conventions
 
-The numbered folders are phases, in order, and the output of each phase is the input of the next. I'd recommend working through them in sequence. The `_config/` folder holds reference material that applies across phases — hard constraints and environment details. The `_template/` folder is the blank version, so copy it for each new project rather than editing it directly, unless you're improving the template itself. Each phase has a `CONTEXT.md` for instructions and an `output/` folder for the deliverable. The phase 3 brief is the final output, and implementation happens outside this workflow.
+The numbered folders are phases, in order, and the output of each phase is the input of the next. I'd recommend working through them in sequence. The `_config/` folder holds reference material that applies across phases — hard constraints and environment details. The `_template/` folder is the blank version, so copy it for each new project rather than editing it directly, unless you're improving the template itself. Each phase has a `CONTEXT.md` for instructions and an `output/` folder for the deliverable. The phase 3 brief is the final output, and implementation happens outside prompt-plus.
 
 ## When this is overkill
 
-Not every task needs this. If you're asking AI to write a quick email or fix a typo, just ask. This workflow is for work that benefits from explicit planning, like features, content series, system designs, or anything where the cost of starting in the wrong direction is real. That being said, you can also adapt it. If you only need phases 1 and 2 for a smaller piece of work, that's fine too. The structure is meant to serve you, not the other way around.
+Not every task needs this. If you're asking AI to write a quick email or fix a typo, just ask. prompt-plus is for work that benefits from explicit planning, like features, content series, system designs, or anything where the cost of starting in the wrong direction is real. That being said, you can also adapt it. If you only need phases 1 and 2 for a smaller piece of work, that's fine too. The structure is meant to serve you, not the other way around.

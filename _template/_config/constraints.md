@@ -1,4 +1,4 @@
-# Project Constraints
+# prompt-plus — Project Constraints
 
 Reference material that applies across all phases. Fill this in during Phase 1 or 2 as constraints emerge.
 
